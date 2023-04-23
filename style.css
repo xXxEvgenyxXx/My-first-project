@@ -1,0 +1,63 @@
+#testimonials{
+    background-color: #f3f3f3;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    margin: 100px 0;
+}
+h1{
+    color:red;
+    text-align:center;
+}
+.wrapper{
+    max-width:80%;
+    margin:0 auto;
+}
+.review-item{
+    color: #404040;
+    background-color: #fff;
+    margin:30px;
+    padding:25px;
+    font-size:20px;
+    height: 160px;
+    width:30%;
+    margin-right:40px;
+    border-bottom: 4px solid #e0e0e0;
+    float:left;
+}
+.author-wrapper{
+    margin-top:25px;
+}
+img{
+    width:100%;
+}
+div > img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    border: 3px solid red;
+    overflow:hidden;
+    float: left;
+}
+.author-name{
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.author-country{
+    font-style: italic;
+}
+.clear{
+    clear:both;
+}
+.btn{
+    color:white;
+    background-color: red;
+    padding:10px;
+    border-radius:4px;
+    text-align:center;
+    width:100px;
+    cursor:pointer;
+    text-decoration:none;
+    text-transform: uppercase;
+    display:block;
+    margin:100px auto;
+}
